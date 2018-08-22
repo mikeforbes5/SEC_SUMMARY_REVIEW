@@ -34,7 +34,7 @@ while i == 0:
             action = "Review!!!"
             print(action)
             print(datetime.datetime.now())
-            ctypes.windll.user32.MessageBoxW(0, "CHECK BTC!!! on SEC https://www.sec.gov/rules/sro/nysearca.htm", "Review!!!", 1)
+            ctypes.windll.user32.MessageBoxW(0, "CHECK BTC!!!", "Review!!!", 1)
             i = 1
         else:
             print("No New Updates")
