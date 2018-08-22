@@ -6,11 +6,7 @@ import ctypes
 driver = webdriver.Chrome()
 #Change Website SEC Site Accordingly
 driver.get("https://www.sec.gov/rules/sro/cboebzx.htm")
-input_element = driver.find_element_by_name("UserName")
-input_element.send_keys("Michael.Forbes@ihsmarkit.com")
-input_element = driver.find_element_by_name("Password")
-input_element.send_keys("@#@Hciv223@#@")
-driver.find_element_by_class_name("submit").click()
+time.sleep(2)
 driver.minimize_window()
 i = 0
 while i == 0:
