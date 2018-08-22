@@ -8,3 +8,5 @@ Just press "No, Thanks" on the pop-up and after that you should not receive the 
 
 Necessary Packages are Selenium.
 You can also change the refresh rate in the code in line 47 (in seconds)
+
+Also the program is set to Automatically minimize the browser.
